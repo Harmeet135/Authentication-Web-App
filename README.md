@@ -14,9 +14,11 @@ This project is a web application that allows users to register, log in, and upd
 2. Create a .env file in the root directory of the backend with following environment variables `DB_URI=<your-mongodb-connection-uri>
 JWT_SECRET=<your-jwt-secret-key>`.
 3. Install the backend dependencies:`cd backend ` then `npm install` and start the app with `npm start`.
+   
    The backend server will run on http://localhost:8000.
 
 #Frontend
 1. Install the frontend dependencies:`cd frontend ` then `npm install`
 2. Start the frontend development server:`npm start`
+
     The React development server will run on http://localhost:3000.
