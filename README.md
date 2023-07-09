@@ -16,7 +16,7 @@ This project is a web application that allows users to register, log in, and upd
 1) Create a MongoDB database and obtain the connection URI.
 2) Create a .env file in the root directory of the backend with following environment variables `DB_URI=<your-mongodb-connection-uri> 
 JWT_SECRET=<your-jwt-secret-key>`.
-3)Install the backend dependencies:`cd backend ` then `npm install` and start the app with `npm start`.
+3) Install the backend dependencies:`cd backend ` then `npm install` and start the app with `npm start`.
 
    The backend server will run on http://localhost:8000.
 
