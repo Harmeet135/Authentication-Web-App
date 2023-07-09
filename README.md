@@ -1,6 +1,4 @@
-# login-system
-
-## About
+# Authentication Web App
 Authentication App with JWT Token and Password Hashing
 
 ## Purpose
