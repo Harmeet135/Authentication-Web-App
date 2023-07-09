@@ -19,7 +19,7 @@ JWT_SECRET=<your-jwt-secret-key>`.
 
 3)Install the backend dependencies:`cd backend ` then `npm install` and start the app with `npm start`.
 
-    The backend server will run on http://localhost:8000.
+   The backend server will run on http://localhost:8000.
 
 #Frontend
 
