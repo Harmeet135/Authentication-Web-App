@@ -9,7 +9,7 @@ This project is a web application that allows users to register, log in, and upd
 2. Navigate to the project directory: `cd login-system`
 3. Build the Docker image:`docker build -t authentication-app` and run it at `docker run -p 8000:8000 authentication-app`
 
-#Backend 
+#Backend
 1. Create a MongoDB database and obtain the connection URI.
 2. Create a .env file in the root directory of the backend with following environment variables `DB_URI=<your-mongodb-connection-uri> 
 JWT_SECRET=<your-jwt-secret-key>`.
