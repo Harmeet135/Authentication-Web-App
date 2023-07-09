@@ -10,7 +10,6 @@ This project is a web application that allows users to register, log in, and upd
 3. Build the Docker image:`docker build -t authentication-app` and run it at `docker run -p 8000:8000 authentication-app`
 
 #Backend 
-
 1. Create a MongoDB database and obtain the connection URI.
 2. Create a .env file in the root directory of the backend with following environment variables `DB_URI=<your-mongodb-connection-uri> 
 JWT_SECRET=<your-jwt-secret-key>`.
@@ -19,7 +18,6 @@ JWT_SECRET=<your-jwt-secret-key>`.
    The backend server will run on http://localhost:8000.
 
 #Frontend
-
 1. Install the frontend dependencies:`cd frontend ` then `npm install`
 2. Start the frontend development server:`npm start`
 
