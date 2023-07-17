@@ -1,5 +1,5 @@
 # Authentication Web App
-Authentication App with JWT Token and Password Hashing
+Authentication App with JWT Token and Password Hashing. <br><br>
 Check it out [here](https://main--friendly-rabanadas-e95135.netlify.app/)
 
 
