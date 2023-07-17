@@ -32,8 +32,9 @@ const Registration = () => {
           return;
         }
 
-        const response = await axios.post('http://localhost:8000/api/user/register', actualData);
-        console.log(response.data);
+        const response = await axios.post('https://authenticatino.onrender.com/api/user/register', actualData);
+        // const response = await axios.post('http://localhost:8000/api/user/register', actualData);
+        // console.log(response.data);
 
         if (response.data.status === "success") {
           storetoken(response.data.token);

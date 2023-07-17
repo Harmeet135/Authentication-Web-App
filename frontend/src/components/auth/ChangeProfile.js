@@ -28,8 +28,9 @@ const ChangeProfile = ({ user, onProfileUpdate }) => {
           email,
         };
 
-        const response = await axios.post('http://localhost:8000/api/user/update', actualData, { headers });
-        console.log(response.data);
+        const response = await axios.post('https://authenticatino.onrender.com/api/user/update', actualData, { headers });
+        // const response = await axios.post('http://localhost:8000/api/user/update', actualData, { headers });
+        // console.log(response.data);
         setError({ status: true, msg: response.data.message, type: 'success' });
         setSubmitted(true);
 

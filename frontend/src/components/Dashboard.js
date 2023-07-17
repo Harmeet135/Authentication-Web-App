@@ -16,8 +16,9 @@ const Dashboard = () => {
         const token = getToken('token');
         const headers = { Authorization: `Bearer ${token}` };
 
-        const response = await axios.get('http://localhost:8000/api/user/profile', { headers });
-        console.log(response.data);
+        const response = await axios.get('https://authenticatino.onrender.com/api/user/profile', { headers });
+        // const response = await axios.get('http://localhost:8000/api/user/profile', { headers });
+        // console.log(response.data);
         setUser(response.data.user);
       } catch (error) {
         console.error(error);
